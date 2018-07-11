@@ -27,6 +27,7 @@
         <label for="username">Usuario</label>
         <input type="text" id="usucli" name="usucli" placeholder="Ingresar Usuario">
         <!-- AQUI SE ESCRIBE LA CONTRASEÑA -->
+        <!--ANGELITO SE LA TRAGA-->
         <label for="password">Contraseña</label>
         <input type="password" id="usucli" name="usucli" placeholder="Ingresar Contraseña">
         <input type="submit" value="Ingresar" onclick="ingresar('<%=request.getContextPath()%>','ClienteServlet',3)">
