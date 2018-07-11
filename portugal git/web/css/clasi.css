@@ -1,0 +1,24 @@
+*
+{
+    margin:0px;
+    padding:0px;
+}
+
+div#general
+{
+    margin:auto;
+    margin-top:50px;
+    width:960px;
+    height:800px;
+}
+
+div#cabeza
+{
+    width:600px;
+    height: 80px;
+    background-color: #000;
+}
+.general img
+{
+    width:100px;
+}
