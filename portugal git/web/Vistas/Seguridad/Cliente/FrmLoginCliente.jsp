@@ -20,14 +20,15 @@
         <input type="hidden" name="op">
     <div class="login-caja">
       <img src="<%=request.getContextPath()%>/imagenes/cliente.png" class="avatar" alt="">
-      <h1>Iniciar Sesión</h1>
+      <h1>Iniciar SesiÃ³n</h1>
       <form>
         <!-- AQUI SE ESCRIBE EL USUARIO -->
+        <!-- PRUEBA DE GIT WILLY -->
         <label for="username">Usuario</label>
         <input type="text" id="usucli" name="usucli" placeholder="Ingresar Usuario">
-        <!-- AQUI SE ESCRIBE LA CONTRASEÑA -->
-        <label for="password">Contraseña</label>
-        <input type="password" id="usucli" name="usucli" placeholder="Ingresar Contraseña">
+        <!-- AQUI SE ESCRIBE LA CONTRASEÃ‘A -->
+        <label for="password">ContraseÃ±a</label>
+        <input type="password" id="usucli" name="usucli" placeholder="Ingresar ContraseÃ±a">
         <input type="submit" value="Ingresar" onclick="ingresar('<%=request.getContextPath()%>','ClienteServlet',3)">
         <input type="submit" value="Volver" onclick="salircliente()">
         
